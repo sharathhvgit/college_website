@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Department | NHCE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+    <div class="logo">NHCE <span>| CSE</span></div>
+
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#courses">Courses</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Department of <span>Computer Science</span></h1>
+        <p>Innovating Today, Engineering Tomorrow.</p>
+        <a href="#about" class="btn">Explore Department</a>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Our Department</h2>
+    <p class="description">
+        The Department of Computer Science and Engineering
+        focuses on developing innovative thinkers, skilled
+        programmers and future technology leaders.
+        We provide quality education in Artificial Intelligence,
+        Data Science, Software Development and Emerging Technologies.
+    </p>
+
+    <div class="stats">
+        <div class="stat-card">
+            <h3 class="counter" data-target="25">0</h3>
+            <p>Expert Faculty</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 class="counter" data-target="500">0</h3>
+            <p>Students</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 class="counter" data-target="50">0</h3>
+            <p>Projects</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 class="counter" data-target="20">0</h3>
+            <p>Events</p>
+        </div>
+    </div>
+</section>
+
+<!-- Courses -->
+<section id="courses" class="section light">
+    <h2>Our Specializations</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Artificial Intelligence</h3>
+            <p>Explore machine learning, neural networks and intelligent systems.</p>
+        </div>
+
+        <div class="card">
+            <h3>Data Science</h3>
+            <p>Learn data analytics, visualization and big data technologies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>Build modern websites and powerful web applications.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cyber Security</h3>
+            <p>Understand network security and ethical hacking.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Faculty -->
+<section id="faculty" class="section">
+    <h2>Our Faculty</h2>
+
+    <div class="cards">
+        <div class="card faculty">
+            <div class="avatar">👨‍🏫</div>
+            <h3>Dr. Faculty Name</h3>
+            <p>Head of Department</p>
+        </div>
+
+        <div class="card faculty">
+            <div class="avatar">👩‍🏫</div>
+            <h3>Prof. Faculty Name</h3>
+            <p>Associate Professor</p>
+        </div>
+
+        <div class="card faculty">
+            <div class="avatar">👨‍💻</div>
+            <h3>Prof. Faculty Name</h3>
+            <p>Assistant Professor</p>
+        </div>
+    </div>
+</section>
+
+<!-- Events -->
+<section id="events" class="section light">
+    <h2>Department Activities</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Hackathon</h3>
+            <p>24-hour coding challenge to develop innovative solutions.</p>
+        </div>
+
+        <div class="card">
+            <h3>Technical Workshop</h3>
+            <p>Hands-on sessions on AI, Python and emerging technologies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Project Expo</h3>
+            <p>Students showcase their creative engineering projects.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Submit Message</button>
+    </form>
+
+    <p id="response"></p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <h3>NHCE | Computer Science & Engineering</h3>
+    <p>Empowering Innovation Through Technology</p>
+    <p>© 2026 CSE Department. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
